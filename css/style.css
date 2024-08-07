@@ -12,6 +12,11 @@ body {
     overflow-x: hidden 
 }
 
+a {
+    color: #2d2d2d !important;
+    text-decoration: none !important;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @media(min-width:991px) {
@@ -82,6 +87,24 @@ body {
         text-align: center;
         width: 340px;
     }
+    .nav {
+        width: 100%;
+        justify-content: end;
+    }
+
+    .nav nav {
+        width: 100%;
+        justify-content: end;
+        display: flex;
+    }
+    
+    .nav nav .nav-link{ 
+        padding: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: inline-block;
+        
+    }
 }
 
 
@@ -95,15 +118,24 @@ body {
         width: 30%;
     }
 
+    .nav {
+        width: 100%;
+        
+    }
+
     .nav nav{
         display: flex;
         font-size: 12px;
+        width: 100%;
+        justify-content: end;
     }
 
+    
     .nav nav .nav-link{ 
         padding: 0px;
         padding-left: 5px;
         padding-right: 5px;
+        display: inline-block;
     }
 
     .coffe-types .coffe-content h2{
@@ -335,6 +367,7 @@ header nav a {
 .our-story-title {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .our-story-title h1 {
