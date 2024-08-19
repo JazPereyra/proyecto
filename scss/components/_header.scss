@@ -1,0 +1,24 @@
+header.header-info {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+
+    a {
+        img {
+            height: 80px;
+        }
+    }
+
+    nav {
+       a {
+        padding: 50px 20px 50px 20px;
+        display: inline-block;
+        transition: transform 0.3s ease;
+       } 
+
+       a:hover {
+        transform: translateY(-3px);
+       }
+    }
+}
