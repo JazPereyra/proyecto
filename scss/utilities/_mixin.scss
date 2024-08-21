@@ -1,0 +1,9 @@
+@mixin coffe-info {
+    padding: 0;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.coffe-info {
+    @include coffe-info;
+}

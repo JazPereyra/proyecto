@@ -1,3 +1,4 @@
+
 * {
     text-decoration: none;
     margin: 0;
@@ -25,14 +26,12 @@ header{
     height: 80px;
 }
 
-
-
 .nav-link:hover {
     transform: translateY(-3px);
 }
 
 header nav a {
-    color:black;
+    color: #000
 }
 
 .header-img {
@@ -167,14 +166,12 @@ header nav a {
     padding-bottom: 40px;
 }
 
+
 .our-story-title {
     text-align: center;
     padding-top: 30px;
 }
 
-.our-story-title h1 {
-    font-size: 43px;
-}
 
 .our-story-1 {
     display: flex;
@@ -366,12 +363,22 @@ input {
 
   @media(max-width:991px) {
 
-    .only-desktop {
-        display: none !important;
-      }
+    header nav a {
+        color:black !important;
+        font-size: 12px;
+        padding: 0px 2px 0px 2px;
+    }
+    
+    .our-story-1 {    
+    display: in;
+    padding-top: 50px;
+    align-items: center;
+    margin: 0;
+    }
+
 
     .logo img {
-        width: 250px;
+        width: 150px;
         height: 100%;
     }
 
@@ -384,7 +391,7 @@ input {
         font-size: 12px;
     }
 
-    .nav nav .nav-link{ 
+    nav .nav-link{ 
         padding: 0px;
         padding-left: 5px;
         padding-right: 5px;
@@ -403,13 +410,13 @@ input {
         flex-direction: column;
     }
 
-    .coffe-info-content .coffe-info {
+    .coffe-info-content .coffe-info-1 {
         padding: 0;
         flex-direction: column;
         margin-top: 20px;
     }
 
-    .coffe-info-content .coffe-info img {
+    .coffe-info-content .coffe-info-1 img {
         width: 100px;
         
     }
@@ -421,6 +428,7 @@ input {
         border-top: #2d2d2d solid 1px;
         flex-direction: column;
     }
+
 
     .footer .info {
         width: 100%;
@@ -471,7 +479,6 @@ input {
 
     .socials {
         margin-bottom: 30px;
-        display:block;
     }
 
     .socials a img {
@@ -518,21 +525,19 @@ input {
   @media(min-width:991px) {
 
     nav {
-        width:50%;
+        width:100%;
         display: flex;
         justify-content: end;
     }
 
     .nav-link {
-        padding: 50px 20px 50px 20px !important;
+        padding: 50px 20px 50px 20px;
         display: inline-block;
         transition: transform 0.3s ease;
+        color: #000 !important;
         
     }
 
-    .only-mobile {
-        display: none !important;
-      }
 
     .footer {
         display: flex;
