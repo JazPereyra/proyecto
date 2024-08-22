@@ -1,9 +1,7 @@
-@mixin coffe-info {
-    padding: 0;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.coffe-info {
-    @include coffe-info;
+@mixin flexbox ($flex-d, $justify-c, $align-item, $wrap) {
+    display: flex;
+    flex-direction: $flex-d;
+    justify-content: $justify-c;
+    align-items: $align-item;
+    flex-wrap: $wrap;
 }
