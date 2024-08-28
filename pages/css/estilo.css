@@ -1,0 +1,495 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #2d2d2d;
+}
+
+body main div.coffe-info-content div.coffe-info-3, body main div.coffe-info-content div.coffe-info-2 {
+  text-align: center;
+}
+
+body main div.coffe-info-content div.coffe-info-3 img, body main div.coffe-info-content div.coffe-info-2 img {
+  width: 100px;
+  border-radius: 50px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body section img {
+  width: 100%;
+}
+body main {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+body main div h2 {
+  text-align: center;
+  font-size: 34px;
+}
+body main div p {
+  text-align: center;
+}
+body main div.coffe-info-content {
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-between;
+  align-items: inherit;
+  flex-wrap: inherit;
+  margin-top: 40px;
+  padding: 0px 50px 0px 50px;
+}
+body main div.coffe-info-content div.coffe-info {
+  text-align: center;
+}
+body main div.coffe-info-content div.coffe-info img {
+  width: 100px;
+  border-radius: 50px;
+  padding-bottom: 10px;
+}
+body section.vlog {
+  padding-bottom: 30px;
+}
+body section.vlog div.recipes-title {
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 28px;
+}
+body section.vlog div.vlog-1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+body section.vlog div.vlog-1 img {
+  width: 400px;
+  border: #2d2d2d solid 1px;
+}
+body section.vlog div.vlog-1 div.vlog-content {
+  padding: 20px 40px;
+}
+body section.vlog div.vlog-1 div.vlog-content p {
+  font-size: 23px;
+  font-weight: 600;
+}
+body section.vlog div.vlog-1 div.vlog-content ul {
+  padding-top: 10px;
+}
+body section.vlog div.vlog-1 div.vlog-content ul li {
+  padding-top: 5px;
+}
+body section div.our-story-title {
+  text-align: center;
+  padding-top: 30px;
+}
+body section div.our-story-title h1 {
+  font-size: 43px;
+}
+body section.our-story {
+  padding-bottom: 40px;
+}
+body section.our-story div.our-story-1 {
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  margin: 0;
+}
+body section.our-story div.our-story-1 div.our-story-content-1 {
+  width: 55%;
+}
+body section.our-story div.our-story-1 div.our-story-content-1 img {
+  width: 100%;
+}
+body section.our-story div.our-story-1 div.our-story-content-2 {
+  width: 45%;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+body section.our-story div.our-story-1 div.our-story-content-2 h2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+body section.our-story div.our-story-1 div.our-story-content-2 p {
+  line-height: 23px;
+  font-size: 18px;
+}
+body section.our-story div.our-story-2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+body section.our-story div.our-story-2 div.our-story-content-3 {
+  width: 45%;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+body section.our-story div.our-story-2 div.our-story-content-3 h2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+body section.our-story div.our-story-2 div.our-story-content-3 p {
+  line-height: 23px;
+  font-size: 18px;
+}
+body section.our-story div.our-story-2 div.our-story-content-4 {
+  width: 55%;
+}
+body section.our-story div.our-story-2 div.our-story-content-4 img {
+  width: 100%;
+}
+body section.our-story div.our-story-3 {
+  display: flex;
+  align-items: center;
+}
+body section.our-story div.our-story-3 div.our-story-content-5 {
+  width: 55%;
+}
+body section.our-story div.our-story-3 div.our-story-content-6 {
+  padding-left: 40px;
+  padding-right: 20px;
+  width: 45%;
+}
+body section.our-story div.our-story-3 div.our-story-content-6 h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+body section.our-story div.our-story-3 div.our-story-content-6 p {
+  line-height: 23px;
+  font-size: 18px;
+}
+body section div.txt-visit {
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 0px;
+}
+body section div.opening-hours {
+  display: flex;
+  text-align: center;
+}
+body section div.opening-hours div.opening-1 {
+  width: 50%;
+}
+body section div.opening-hours div.opening-1 h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+body section div.opening-hours div.opening-2 {
+  width: 50%;
+  border-left: #2d2d2d solid 1px;
+}
+body section div.opening-hours div.opening-2 h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+body section.mapa iframe {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+body section.wwu {
+  padding: 40px 0px;
+}
+body section.wwu div.wwu-txt {
+  text-align: center;
+  font-size: 23px;
+}
+body section.form-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+body section.form-txt form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 340px;
+}
+body section.form-txt form h2 {
+  color: #2d2d2d;
+  font-size: 35px;
+}
+body section.form-txt form div.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+body section.form-txt form label {
+  color: #2d2d2d;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+body section.form-txt form input {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(225, 225, 225);
+}
+body section.form-txt form div.form-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.form-txt form div.form-txt input.btn {
+  margin-top: 20px;
+}
+
+header.header-info {
+  display: flex !important;
+  justify-content: space-between !important;
+  height: 75px;
+  align-items: center;
+}
+header.header-info a img {
+  height: 80px;
+}
+header.header-info nav a {
+  padding: 50px 20px 50px 20px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+header.header-info nav a:hover {
+  transform: translateY(-3px);
+}
+
+footer.footer {
+  display: flex;
+  align-items: center;
+  padding: 60px 50px 60px 50px;
+  border-top: #2d2d2d solid 1px;
+}
+footer.footer div.info {
+  width: 20%;
+  align-items: center;
+}
+footer.footer div.info div.info-content {
+  display: flex;
+  align-items: center;
+}
+footer.footer div.info div.info-content p {
+  padding-left: 5px;
+}
+footer.footer div.info div.info-content img {
+  width: 25px;
+}
+footer.footer div.copyright {
+  text-align: center;
+  width: 60%;
+  color: #2d2d2d;
+}
+footer.footer div.copyright img {
+  width: 300px;
+}
+footer.footer div.socials {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+footer.footer div.socials img {
+  width: 25px;
+  padding: 0px 20px 0px 20px;
+}
+
+@media (max-width: 991px) {
+  body header a .only-desktop {
+    display: none !important;
+  }
+  body header a .logo img {
+    width: 250px;
+    height: 100%;
+  }
+  .logo img {
+    width: 250px;
+    height: 100%;
+  }
+  .logo {
+    width: 30%;
+  }
+  .nav nav {
+    display: flex;
+    font-size: 12px;
+  }
+  .nav nav .nav-link {
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .coffe-types .coffe-content h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .coffe-types .coffe-content p {
+    font-size: 12px;
+  }
+  .coffe-info-content {
+    flex-direction: column;
+  }
+  .coffe-info-content .coffe-info {
+    padding: 0;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .coffe-info-content .coffe-info img {
+    width: 100px;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    border-top: #2d2d2d solid 1px;
+    flex-direction: column;
+  }
+  .footer .info {
+    width: 100%;
+    margin: 30px auto 0px auto;
+  }
+  .footer .info .info-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .footer .info .info-content p {
+    padding: 0;
+    font-size: 12px;
+  }
+  .info-content img {
+    width: 35px;
+    padding-right: 10px;
+  }
+  .copyright img {
+    width: 200px;
+  }
+  .copyright p {
+    text-align: center;
+    color: #2d2d2d;
+    font-size: 12px;
+  }
+  .copyright a {
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .copyright {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .socials {
+    margin-bottom: 30px;
+    display: block;
+  }
+  .socials a img {
+    width: 25px;
+    padding: 0px 20px;
+    display: block;
+  }
+  .socials a {
+    display: block;
+  }
+  .recipes-title {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 22px;
+  }
+  .img-vlog {
+    width: 100%;
+    border: #2d2d2d solid 1px;
+    margin: 10px 10px;
+  }
+  .vlog-1 {
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+  }
+}
+@media (min-width: 991px) {
+  nav {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  }
+  .nav-link {
+    padding: 50px 20px 50px 20px !important;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  .only-mobile {
+    display: none !important;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 60px 50px 60px 50px;
+    border-top: #2d2d2d solid 1px;
+  }
+  .copyright a img {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .copyright a {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .copyright p {
+    text-align: center;
+    color: #2d2d2d;
+    justify-content: center;
+  }
+  .copyright {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+  }
+  .logo img {
+    height: 80px;
+  }
+  .socials img {
+    width: 20%;
+    padding: 0px 20px 0px 20px;
+  }
+  .info {
+    width: 20%;
+    align-items: center;
+  }
+  .recipes-title {
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 28px;
+  }
+  .img-vlog {
+    width: 400px;
+    border: #2d2d2d solid 1px;
+  }
+  .vlog-1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+  }
+  .our-story-title {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
