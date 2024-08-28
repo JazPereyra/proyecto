@@ -1,185 +1,6 @@
-@media(max-width:991px) {
-
-    body {
-        header {
-            a {
-                .only-desktop {
-                    display: none !important;
-                  }
-                
-                .logo img {
-                    width: 250px;
-                    height: 100%;
-                }
-            }
-        }
-    }
-
-
-    .logo img {
-        width: 250px;
-        height: 100%;
-    }
-
-    .logo {
-        width: 30%;
-    }
-
-    .nav nav{
-        display: flex;
-        font-size: 12px;
-    }
-
-    .nav nav .nav-link{ 
-        padding: 0px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .coffe-types .coffe-content h2{
-        font-size: 20px;
-        padding-bottom: 10px;
-    }
-
-    .coffe-types .coffe-content p {
-        font-size: 12px;
-    }
-
-    .coffe-info-content {
-        flex-direction: column;
-    }
-
-    .coffe-info-content .coffe-info {
-        padding: 0;
-        flex-direction: column;
-        margin-top: 20px;
-    }
-
-    .coffe-info-content .coffe-info img {
-        width: 100px;
-        
-    }
-
-    .footer {
-        display: flex;
-        align-items: center;
-        padding: 0px;
-        border-top: #2d2d2d solid 1px;
-        flex-direction: column;
-    }
-
-    .footer .info {
-        width: 100%;
-        margin: 30px auto 0px auto;
-    }
-    
-    .footer .info .info-content {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-
-    .footer .info .info-content p {
-        padding: 0;
-        font-size: 12px;
-        
-    }
-
-    .info-content img {
-        width: 35px;
-        padding-right: 10px;
-    }
-
-    .copyright img {
-        width: 200px;
-    }
-
-    .copyright p {
-        text-align: center;
-        color: #2d2d2d;
-        
-        font-size: 12px;
-        
-    }
-
-    .copyright a {
-        justify-content: center;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .copyright {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        padding-bottom: 30px;
-    }
-
-    .socials {
-        margin-bottom: 30px;
-        display:block;
-    }
-
-    .socials a img {
-        width: 25px;
-        padding: 0px 20px;
-        display: block;
-    }
-
-    .socials a {
-        display: block;
-    }
-
-    .recipes-title {
-        text-align: center;
-        padding: 20px 0px;
-        font-size: 22px;
-    }
-
-    .img-vlog {
-        width: 100%;
-        border: #2d2d2d solid 1px;
-        margin: 10px 10px;
-    }
-
-    .vlog-1 {
-        flex-direction: column;
-        justify-content: center;
-        margin: 20px 0px;
-    }
-
-    form {
-        padding: 50px 55px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-        border-radius: 20px;
-        text-align: center;
-        width: 300px;
-    }
-
+@media(min-width:991px) {
 
     
-} 
-
-
-  @media(min-width:991px) {
-
-    nav {
-        width:50%;
-        display: flex;
-        justify-content: end;
-    }
-
-    .nav-link {
-        padding: 50px 20px 50px 20px !important;
-        display: inline-block;
-        transition: transform 0.3s ease;
-        
-    }
-
-    .only-mobile {
-        display: none !important;
-      }
-
     .footer {
         display: flex;
         align-items: center;
@@ -187,7 +8,7 @@
         border-top: #2d2d2d solid 1px;
     }
 
-    .copyright a img {
+    .copyright img {
         width: 300px;
         margin: 0 auto;
         text-align: center;
@@ -247,8 +68,150 @@
         text-align: center;
         width: 340px;
     }
-
-    .our-story-title {
-        flex-direction: row;
-    }
 }
+
+
+@media(max-width:991px) {
+
+    .header-info {
+        display: flex !important;
+        height: 75px;
+        align-items: center;
+    }
+    
+    .header-info .logo img {
+        padding-top: 5px;
+        width: 185px;
+        height: 60px;
+
+    }
+    
+    .nav-link{
+        display: flex;
+        justify-content: space-between !important;
+        font-size: 10px;
+        padding: 5px 5px 5px 5px !important;
+    }
+    
+    header nav a {
+        color:black;
+    }
+    
+
+
+    .coffe-types .coffe-content h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .coffe-types .coffe-content p {
+        font-size: 12px;
+    }
+
+    .coffe-info-content {
+        flex-direction: column;
+    }
+
+    .coffe-info-content .coffe-info {
+        padding: 0;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .coffe-info-content .coffe-info img {
+        width: 100px;
+        
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        border-top: #2d2d2d solid 1px;
+        flex-direction: column;
+    }
+
+    .footer .info {
+        width: 100%;
+        margin: 30px auto 0px auto;
+    }
+    
+    .footer .info .info-content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .info .info-content p {
+        padding: 0;
+        font-size: 12px;
+    }
+
+
+    .info-content img {
+        width: 50px;
+    }
+
+    .copyright img {
+        width: 200px;
+    }
+
+    .copyright p {
+        text-align: center;
+        color: #2d2d2d;
+        font-size: 12px;
+        
+    }
+
+    .copyright a {
+        justify-content: center;
+        margin: 0px auto;
+        width: 50px;
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .socials {
+        margin-bottom: 30px;
+    }
+
+    .socials a img {
+        width: 25px;
+        padding: 0px 20px;
+    }
+
+    .recipes-title {
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 22px;
+    }
+
+    .img-vlog {
+        width: 100%;
+        border: #2d2d2d solid 1px;
+        margin: 10px 10px;
+    }
+
+    .vlog-1 {
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    form {
+        margin: 0px 20px;
+        padding: 50px 55px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        width: 300px;
+    }
+
+
+
+    
+} 
