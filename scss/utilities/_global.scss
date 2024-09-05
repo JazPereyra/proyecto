@@ -43,7 +43,7 @@ body {
                     border-radius: 50px;
                     padding-bottom: 10px;
                 }
-                
+
                 p {
                     padding-top: 10px
                 }
@@ -90,13 +90,13 @@ body {
         div.recipes-title {
             text-align: center;
             padding: 40px 0px;
-            font-size: 28px;
+            font-size: 25px;
             $color-letras: #2d2d2d;
         }
 
         div.vlog-1 {
             display: flex;
-            justify-content: center;
+            justify-content: center !important;
             margin: 20px 0px;
 
             img {
@@ -117,6 +117,8 @@ body {
 
                     li {
                         padding-top: 5px;
+                        font-size: 12px;
+                        line-height: 1.5;
                     }
                 }
             }
@@ -127,11 +129,12 @@ body {
 
         div.our-story-title {
             text-align: center;
-            padding-top: 30px;
+            padding: 20px 150px 0px 150px;
 
             h1 {
                 font-size: 43px;
                 $color-letras: #2d2d2d;
+                padding: 0px 30px;
             }
         }
     }
@@ -238,7 +241,7 @@ body {
     section {
 
         div.txt-visit {
-            font-size: 30px;
+            font-size: 25px;
             text-align: center;
             padding: 40px 0px;
         }

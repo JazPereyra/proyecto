@@ -79,11 +79,11 @@ body section.vlog {
 body section.vlog div.recipes-title {
   text-align: center;
   padding: 40px 0px;
-  font-size: 28px;
+  font-size: 25px;
 }
 body section.vlog div.vlog-1 {
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
   margin: 20px 0px;
 }
 body section.vlog div.vlog-1 img {
@@ -102,13 +102,16 @@ body section.vlog div.vlog-1 div.vlog-content ul {
 }
 body section.vlog div.vlog-1 div.vlog-content ul li {
   padding-top: 5px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 body section div.our-story-title {
   text-align: center;
-  padding-top: 30px;
+  padding: 20px 150px 0px 150px;
 }
 body section div.our-story-title h1 {
   font-size: 43px;
+  padding: 0px 30px;
 }
 body section.our-story {
   padding-bottom: 40px;
@@ -183,7 +186,7 @@ body section.our-story div.our-story-3 div.our-story-content-6 p {
   font-size: 18px;
 }
 body section div.txt-visit {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   padding: 40px 0px;
 }
@@ -406,11 +409,35 @@ footer.footer div.socials img {
   }
   .coffe-info-content {
     flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 0px;
+    padding: 0 !important;
   }
-  .coffe-info-content .coffe-info {
+  .coffe-info-content .coffe-info-1 {
     padding: 0;
-    flex-direction: column;
     margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+  }
+  .coffe-info-content .coffe-info-2 {
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
+  }
+  .coffe-info-content .coffe-info-2 {
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center;
   }
   .coffe-info-content .coffe-info img {
     width: 100px;
