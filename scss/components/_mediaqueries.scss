@@ -47,7 +47,7 @@
     .recipes-title {
         text-align: center;
         padding: 40px 0px;
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .img-vlog {
@@ -68,6 +68,44 @@
         text-align: center;
         width: 340px;
     }
+
+    .coffe-info-content {
+        @include flexbox (flex, space-between, inherit, nowrap);
+        margin-top: 40px;
+        padding: 0px 50px 0px 50px; 
+    }    
+
+    .txt-visit {
+        font-size: 25px;
+    }
+
+    .opening-1 h3 {
+        font-size: 20px;
+    }
+
+    .opening-1 p {
+        font-size: 18px;
+    }
+
+    .opening-2 h3 {
+        font-size: 20px;
+    }
+
+    .opening-2 p {
+        font-size: 18px;
+    }
+
+    .wwu-txt h1 {
+        font-size: 38px;
+    }
+
+    .wwu-txt p {
+        font-size: 28px;
+    }
+
+    form h2 {
+        font-size: 35px;
+    }
 }
 
 
@@ -77,27 +115,28 @@
         display: flex !important;
         height: 75px;
         align-items: center;
+        padding: 0;
+        margin: 0;
     }
     
     .header-info .logo img {
         padding-top: 5px;
         width: 185px;
-        height: 60px;
+        height: 55px;
 
     }
     
     .nav-link{
         display: flex;
         justify-content: space-between !important;
-        font-size: 10px;
+        font-size: 9px;
         padding: 5px 5px 5px 5px !important;
+        margin: 0px;
     }
     
     header nav a {
         color:black;
     }
-    
-
 
     .coffe-types .coffe-content h2{
         font-size: 20px;
@@ -110,11 +149,10 @@
 
     .coffe-info-content {
         flex-direction: column;
-        align-items: center;
         justify-content: center !important;
-        text-align: center !important;
         margin: 0px;
-        padding: 0 !important; 
+        padding: 0; 
+        width: 100%;
     }
 
     .coffe-info-content .coffe-info-1 {
@@ -124,7 +162,10 @@
         align-items: center;
         justify-content: center !important;
         text-align: center;
-        
+    }
+
+    .coffe-info-1 p {
+        font-size: 12px;
     }
 
     .coffe-info-content .coffe-info-2 {
@@ -135,19 +176,66 @@
         justify-content: center !important;
         text-align: center;
     }
-    .coffe-info-content .coffe-info-2 {
+
+    .coffe-info-2 p {
+        font-size: 12px;
+    }
+
+    .coffe-info-content .coffe-info-3 {
         padding: 0;
         margin-top: 20px;
         width: 100%;
         align-items: center;
         justify-content: center !important;
         text-align: center;
+    }
+
+    .coffe-info-3 p {
+        font-size: 12px;
     }
 
     .coffe-info-content .coffe-info img {
         width: 100px;
         
     }
+
+    /* Visit us */
+
+    .txt-visit {
+        font-size: 20px;
+    }
+
+    .opening-1 h3 {
+        font-size: 18px;
+    }
+
+    .opening-1 p {
+        font-size: 12px;
+    }
+
+    .opening-2 h3 {
+        font-size: 18px;
+    }
+
+    .opening-2 p {
+        font-size: 12px;
+    }
+
+    /* Work with us */
+
+    .wwu-txt h1 {
+        font-size: 20px;
+    }
+
+    .wwu-txt p {
+        font-size: 18px;
+    }
+
+    form h2 {
+        font-size: 25px;
+    }
+
+    /* Footer */
 
     .footer {
         display: flex;
@@ -177,8 +265,12 @@
         width: 50px;
     }
 
-    .copyright img {
-        width: 200px;
+    .copyright {
+        a {
+            .logo-footer {
+                width: 200px !important;
+            }
+        }
     }
 
     .copyright p {
@@ -213,11 +305,11 @@
     .recipes-title {
         text-align: center;
         padding: 20px 0px;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .img-vlog {
-        width: 100%;
+        width: 80%;
         border: #2d2d2d solid 1px;
         margin: 10px 10px;
     }

@@ -1,3 +1,10 @@
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translate(30px) scale(0.9);
+    }
+}
+
 header.header-info {
     display: flex !important;
     justify-content: space-between !important;
@@ -16,6 +23,8 @@ header.header-info {
         display: inline-block;
         transition: transform 0.3s ease;
         $color-letras:#2d2d2d;
+        animation: fade-up 1s;
+
        } 
 
        a:hover {
