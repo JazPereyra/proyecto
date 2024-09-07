@@ -40,9 +40,7 @@ body main div p {
 }
 body main div.coffe-info-content div.coffe-info-1 {
   text-align: center;
-  width: 33%;
   font-size: 15px;
-  padding: 10px 30px;
   transition: all 700ms;
 }
 body main div.coffe-info-content div.coffe-info-1 img {
@@ -57,9 +55,7 @@ body main div.coffe-info-content div.coffe-info-1:hover {
   transform: scale(1.1);
 }
 body main div.coffe-info-content div.coffe-info-2 {
-  width: 33%;
   font-size: 15px;
-  padding: 10px 30px;
   transition: all 700ms;
 }
 body main div.coffe-info-content div.coffe-info-2 p {
@@ -69,9 +65,7 @@ body main div.coffe-info-content div.coffe-info-2:hover {
   transform: scale(1.1);
 }
 body main div.coffe-info-content div.coffe-info-3 {
-  width: 33%;
   font-size: 15px;
-  padding: 10px 30px;
   transition: all 700ms;
 }
 body main div.coffe-info-content div.coffe-info-3 p {
@@ -91,29 +85,36 @@ body section.vlog div.recipes-title {
 body section.vlog div.vlog-1 {
   display: flex;
   justify-content: center !important;
-  margin: 20px 0px;
+  margin: 20px auto;
+  text-align: center;
+  width: 70%;
 }
 body section.vlog div.vlog-1 img {
-  border: #2d2d2d solid 1px;
+  border: none;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 700ms;
 }
-body section.vlog div.vlog-1 div.vlog-content {
-  padding: 20px 40px;
+body section.vlog div.vlog-1 img:hover {
+  transform: scale(1.05);
 }
 body section.vlog div.vlog-1 div.vlog-content p {
-  font-size: 23px;
   font-weight: 600;
+  text-align: justify;
 }
 body section.vlog div.vlog-1 div.vlog-content ul {
   padding-top: 10px;
+  padding-left: 20px;
 }
 body section.vlog div.vlog-1 div.vlog-content ul li {
   padding-top: 5px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
+  text-align: justify;
 }
 body section div.our-story-title {
   text-align: center;
-  padding: 20px 150px 0px 150px;
 }
 body section div.our-story-title h1 {
   font-size: 43px;
@@ -129,13 +130,13 @@ body section.our-story div.our-story-1 {
   margin: 0;
 }
 body section.our-story div.our-story-1 div.our-story-content-1 {
-  width: 55%;
+  width: 60%;
 }
 body section.our-story div.our-story-1 div.our-story-content-1 img {
   width: 100%;
 }
 body section.our-story div.our-story-1 div.our-story-content-2 {
-  width: 45%;
+  width: 60%;
   padding-left: 20px;
   padding-right: 50px;
 }
@@ -153,7 +154,7 @@ body section.our-story div.our-story-2 {
   margin: 0;
 }
 body section.our-story div.our-story-2 div.our-story-content-3 {
-  width: 45%;
+  width: 60%;
   padding-left: 40px;
   padding-right: 20px;
 }
@@ -166,7 +167,7 @@ body section.our-story div.our-story-2 div.our-story-content-3 p {
   font-size: 18px;
 }
 body section.our-story div.our-story-2 div.our-story-content-4 {
-  width: 55%;
+  width: 60%;
 }
 body section.our-story div.our-story-2 div.our-story-content-4 img {
   width: 100%;
@@ -176,12 +177,15 @@ body section.our-story div.our-story-3 {
   align-items: center;
 }
 body section.our-story div.our-story-3 div.our-story-content-5 {
-  width: 55%;
+  width: 60%;
+}
+body section.our-story div.our-story-3 div.our-story-content-5 img {
+  width: 100%;
 }
 body section.our-story div.our-story-3 div.our-story-content-6 {
   padding-left: 40px;
   padding-right: 20px;
-  width: 45%;
+  width: 55%;
 }
 body section.our-story div.our-story-3 div.our-story-content-6 h2 {
   font-size: 28px;
@@ -422,6 +426,31 @@ footer.footer div.socials img {
   form h2 {
     font-size: 35px;
   }
+  .our-story-title {
+    padding: 20px 150px 0px 150px;
+  }
+  .coffe-info-1 {
+    width: 33%;
+    padding: 10px 30px;
+  }
+  .coffe-info-2 {
+    width: 33%;
+    padding: 10px 30px;
+  }
+  .coffe-info-3 {
+    width: 33%;
+    padding: 10px 30px;
+  }
+  .vlog-content {
+    width: 100%;
+    max-width: 45%;
+  }
+  .vlog-content p {
+    font-size: 28px;
+  }
+  .vlog-1 img {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4);
+  }
 }
 @media (max-width: 991px) {
   .header-info {
@@ -473,7 +502,7 @@ footer.footer div.socials img {
   }
   .coffe-info-content .coffe-info-2 {
     padding: 0;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     align-items: center;
     justify-content: center !important;
@@ -484,7 +513,7 @@ footer.footer div.socials img {
   }
   .coffe-info-content .coffe-info-3 {
     padding: 0;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     align-items: center;
     justify-content: center !important;
@@ -495,6 +524,14 @@ footer.footer div.socials img {
   }
   .coffe-info-content .coffe-info img {
     width: 100px;
+  }
+  /* Vlog */
+  .vlog-content p {
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  .vlog-1 img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   /* Visit us */
   .txt-visit {
@@ -577,7 +614,7 @@ footer.footer div.socials img {
     font-size: 20px;
   }
   .img-vlog {
-    width: 80%;
+    width: 100%;
     border: #2d2d2d solid 1px;
     margin: 10px 10px;
   }

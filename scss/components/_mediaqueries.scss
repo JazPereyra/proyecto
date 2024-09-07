@@ -106,6 +106,40 @@
     form h2 {
         font-size: 35px;
     }
+    
+    .our-story-title {
+        padding: 20px 150px 0px 150px;
+    }
+
+    .coffe-info-1 {
+        width: 33%;
+        padding: 10px 30px;
+    }
+
+    .coffe-info-2 {
+        width: 33%;
+        padding: 10px 30px;
+    }
+
+    .coffe-info-3 {
+        width: 33%;
+        padding: 10px 30px;
+    }
+
+    .vlog-content {
+        width: 100%;
+        max-width: 45%;   
+    }
+
+    .vlog-content p {
+        font-size: 28px;
+    }
+
+    .vlog-1 img {
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4);
+    }
+
+
 }
 
 
@@ -170,7 +204,7 @@
 
     .coffe-info-content .coffe-info-2 {
         padding: 0;
-        margin-top: 20px;
+        margin-top: 30px;
         width: 100%;
         align-items: center;
         justify-content: center !important;
@@ -183,7 +217,7 @@
 
     .coffe-info-content .coffe-info-3 {
         padding: 0;
-        margin-top: 20px;
+        margin-top: 30px;
         width: 100%;
         align-items: center;
         justify-content: center !important;
@@ -198,6 +232,19 @@
         width: 100px;
         
     }
+
+    /* Vlog */ 
+
+    .vlog-content p {
+        padding-top: 30px;
+        font-size: 22px;
+    }
+
+    .vlog-1 img {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+        
+
 
     /* Visit us */
 
@@ -309,7 +356,7 @@
     }
 
     .img-vlog {
-        width: 80%;
+        width: 100%;
         border: #2d2d2d solid 1px;
         margin: 10px 10px;
     }
