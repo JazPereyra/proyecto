@@ -109,7 +109,6 @@ body section.vlog div.vlog-1 div.vlog-content p {
 }
 body section.vlog div.vlog-1 div.vlog-content ul {
   padding-top: 10px;
-  padding-left: 20px;
 }
 body section.vlog div.vlog-1 div.vlog-content ul li {
   padding-top: 5px;
@@ -472,6 +471,9 @@ footer.footer div.socials img:hover {
   }
   hr {
     display: none;
+  }
+  .vlog-content ul {
+    padding-left: 20px;
   }
 }
 @media (max-width: 991px) {
