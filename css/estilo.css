@@ -4,6 +4,7 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
   color: #2d2d2d;
+  overflow-x: hidden;
 }
 
 body main div.coffe-info-content div.coffe-info-3, body main div.coffe-info-content div.coffe-info-2 {
@@ -22,7 +23,6 @@ a {
 
 body section img.header-img {
   width: 100%;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
 }
 body main {
   margin-top: 30px;
@@ -37,6 +37,9 @@ body main div h2 {
 }
 body main div p {
   text-align: center;
+}
+body main div.coffe-info-content {
+  overflow-y: hidden;
 }
 body main div.coffe-info-content div.coffe-info-1 {
   text-align: center;
@@ -88,6 +91,7 @@ body section.vlog div.vlog-1 {
   margin: 20px auto;
   text-align: center;
   width: 70%;
+  overflow-y: hidden !important;
 }
 body section.vlog div.vlog-1 img {
   border: none;
@@ -114,57 +118,16 @@ body section.vlog div.vlog-1 div.vlog-content ul li {
   text-align: justify;
 }
 body section div.our-story-title {
+  animation: fade-up 1s;
   text-align: center;
 }
-body section div.our-story-title h1 {
-  font-size: 43px;
-  padding: 0px 30px;
-}
-body section.our-story {
-  padding-bottom: 40px;
-}
 body section.our-story div.our-story-1 {
-  display: flex;
-  padding-top: 50px;
   align-items: center;
   margin: 0;
-}
-body section.our-story div.our-story-1 div.our-story-content-1 {
-  width: 60%;
-}
-body section.our-story div.our-story-1 div.our-story-content-1 img {
-  width: 100%;
-}
-body section.our-story div.our-story-1 div.our-story-content-2 {
-  width: 60%;
-  padding-left: 20px;
-  padding-right: 50px;
-}
-body section.our-story div.our-story-1 div.our-story-content-2 h2 {
-  font-size: 28px;
-  padding-bottom: 10px;
-}
-body section.our-story div.our-story-1 div.our-story-content-2 p {
-  line-height: 23px;
-  font-size: 18px;
 }
 body section.our-story div.our-story-2 {
-  display: flex;
   align-items: center;
   margin: 0;
-}
-body section.our-story div.our-story-2 div.our-story-content-3 {
-  width: 60%;
-  padding-left: 40px;
-  padding-right: 20px;
-}
-body section.our-story div.our-story-2 div.our-story-content-3 h2 {
-  font-size: 28px;
-  padding-bottom: 10px;
-}
-body section.our-story div.our-story-2 div.our-story-content-3 p {
-  line-height: 23px;
-  font-size: 18px;
 }
 body section.our-story div.our-story-2 div.our-story-content-4 {
   width: 60%;
@@ -173,27 +136,10 @@ body section.our-story div.our-story-2 div.our-story-content-4 img {
   width: 100%;
 }
 body section.our-story div.our-story-3 {
-  display: flex;
   align-items: center;
-}
-body section.our-story div.our-story-3 div.our-story-content-5 {
-  width: 60%;
 }
 body section.our-story div.our-story-3 div.our-story-content-5 img {
   width: 100%;
-}
-body section.our-story div.our-story-3 div.our-story-content-6 {
-  padding-left: 40px;
-  padding-right: 20px;
-  width: 55%;
-}
-body section.our-story div.our-story-3 div.our-story-content-6 h2 {
-  font-size: 28px;
-  padding-bottom: 20px;
-}
-body section.our-story div.our-story-3 div.our-story-content-6 p {
-  line-height: 23px;
-  font-size: 18px;
 }
 body section div.txt-visit {
   text-align: center;
@@ -225,6 +171,7 @@ body section.mapa iframe {
 }
 body section.wwu {
   padding: 10px 0px 40px 0px;
+  animation: fade-up 1s;
 }
 body section.wwu div.wwu-txt {
   text-align: center;
@@ -278,6 +225,10 @@ body section.form-txt form div.form-txt input.btn {
     transform: translate(30px) scale(0.9);
   }
 }
+header {
+  overflow-y: hidden;
+}
+
 header.header-info {
   display: flex !important;
   justify-content: space-between !important;
@@ -304,7 +255,6 @@ footer.footer {
   border-top: #2d2d2d solid 1px;
 }
 footer.footer div.info {
-  width: 20%;
   align-items: center;
 }
 footer.footer div.info div.info-content {
@@ -313,9 +263,6 @@ footer.footer div.info div.info-content {
 }
 footer.footer div.info div.info-content p {
   padding-left: 5px;
-}
-footer.footer div.info div.info-content img {
-  width: 25px;
 }
 footer.footer div.copyright {
   text-align: center;
@@ -326,13 +273,14 @@ footer.footer div.copyright img {
   width: 300px;
 }
 footer.footer div.socials {
-  width: 20%;
-  display: flex;
   justify-content: center;
 }
 footer.footer div.socials img {
   width: 25px;
-  padding: 0px 20px 0px 20px;
+  transition: all 400ms;
+}
+footer.footer div.socials img:hover {
+  transform: scale(1.16);
 }
 
 @media (min-width: 991px) {
@@ -364,13 +312,24 @@ footer.footer div.socials img {
   .logo img {
     height: 80px;
   }
-  .socials img {
+  .socials {
+    display: flex;
     width: 20%;
+    overflow-y: hidden !important;
+  }
+  .socials img {
     padding: 0px 20px 0px 20px;
+    overflow-y: hidden !important;
+  }
+  .socials a {
+    overflow-y: hidden !important;
   }
   .info {
     width: 20%;
     align-items: center;
+  }
+  .info-content img {
+    width: 25px;
   }
   .recipes-title {
     text-align: center;
@@ -451,6 +410,69 @@ footer.footer div.socials img {
   .vlog-1 img {
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4);
   }
+  .our-story {
+    padding-bottom: 40px;
+  }
+  .our-story-1 {
+    padding-top: 50px;
+    display: flex;
+  }
+  .our-story-content-2 {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+  .our-story-2 {
+    display: flex;
+  }
+  .our-story-content-3 {
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  .our-story-3 {
+    display: flex;
+  }
+  .our-story-content-6 {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+  .our-story-title h1 {
+    font-size: 43px;
+    padding: 0px 30px;
+  }
+  .our-story-content-2 h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .our-story-content-2 p {
+    line-height: 23px;
+    font-size: 18px;
+  }
+  .our-story-content-3 h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .our-story-content-3 p {
+    line-height: 23px;
+    font-size: 18px;
+  }
+  .our-story-content-6 p {
+    line-height: 23px;
+    font-size: 18px;
+  }
+  .our-story-content-6 h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .our-story-content-6 p {
+    line-height: 23px;
+    font-size: 18px;
+  }
+  hr {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
   .header-info {
@@ -475,6 +497,7 @@ footer.footer div.socials img {
   header nav a {
     color: black;
   }
+  /* Home */
   .coffe-types .coffe-content h2 {
     font-size: 20px;
     padding-bottom: 10px;
@@ -524,6 +547,82 @@ footer.footer div.socials img {
   }
   .coffe-info-content .coffe-info img {
     width: 100px;
+  }
+  /* About us */
+  .our-story-content-4 img {
+    display: none;
+  }
+  .our-story-content-5 img {
+    display: none;
+  }
+  .our-story-content-2 {
+    padding: 10px 20px 20px 20px;
+    text-align: justify;
+  }
+  .our-story-content-2 h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .our-story-content-2 p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .our-story-content-3 {
+    padding: 20px 20px 10px 20px;
+    text-align: right;
+  }
+  .our-story-content-3 h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .our-story-content-3 p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .our-story-content-6 {
+    padding: 25px 20px 25px 20px;
+  }
+  .our-story-content-6 h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .our-story-content-6 p {
+    line-height: 20px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  hr {
+    width: 75%;
+    background-color: black;
+  }
+  .our-story {
+    padding: 0;
+    margin: 0 auto;
+    height: 100;
+    flex-direction: column;
+  }
+  .our-story-content-1 {
+    width: 100%;
+  }
+  .our-story-2 {
+    padding: 0;
+    margin: 0 auto;
+    height: 100;
+    flex-direction: column;
+  }
+  .our-story-content-5 {
+    width: 100%;
+  }
+  .our-story-title {
+    padding: 0px 20px 30px 20px;
+  }
+  .our-story-title h1 {
+    font-size: 30px;
+  }
+  .our-story-title p {
+    padding-top: 5px;
+    font-size: 15px;
+    line-height: 1.5;
   }
   /* Vlog */
   .vlog-content p {
@@ -580,7 +679,7 @@ footer.footer div.socials img {
     font-size: 12px;
   }
   .info-content img {
-    width: 50px;
+    width: 20px;
   }
   .copyright a .logo-footer {
     width: 200px !important;
@@ -603,10 +702,15 @@ footer.footer div.socials img {
   }
   .socials {
     margin-bottom: 30px;
+    display: flex;
+    display: 100%;
+    overflow-y: hidden !important;
   }
   .socials a img {
-    width: 25px;
-    padding: 0px 20px;
+    display: flex;
+    width: 100%;
+    padding: 0 7px;
+    overflow-y: hidden !important;
   }
   .recipes-title {
     text-align: center;

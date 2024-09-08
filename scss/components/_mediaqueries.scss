@@ -1,6 +1,5 @@
 @media(min-width:991px) {
 
-    
     .footer {
         display: flex;
         align-items: center;
@@ -35,13 +34,29 @@
         height: 80px;
     }
 
-    .socials img {
+    .socials {
+        display: flex;
         width: 20%;
+        overflow-y: hidden !important;
+        
+    }
+    .socials img {
         padding: 0px 20px 0px 20px;
+        overflow-y: hidden !important;
+        
+    }
+
+    .socials a {
+        overflow-y: hidden !important;
     }
     .info {
         width: 20%;
         align-items: center;
+    }
+
+    .info-content img {
+        width: 25px ;
+
     }
 
     .recipes-title {
@@ -139,7 +154,86 @@
         box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4);
     }
 
+    .our-story {
+        padding-bottom: 40px;
+    }
 
+    .our-story-1 {
+        padding-top: 50px;
+        display: flex;
+
+    }
+
+    .our-story-content-2 {
+        width: 45%;
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+
+    .our-story-2 {
+        display: flex;
+    }
+
+    .our-story-content-3 {
+        width: 50%;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+    .our-story-3 {
+        display: flex;
+    }
+
+
+    .our-story-content-6 {
+        width: 45%;
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+
+    .our-story-title h1 {
+        font-size: 43px;
+        padding: 0px 30px;
+    }
+
+    .our-story-content-2 h2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .our-story-content-2 p {
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    .our-story-content-3 h2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .our-story-content-3 p {
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    .our-story-content-6 p {
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    .our-story-content-6 h2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .our-story-content-6 p {
+        line-height: 23px;
+        font-size: 18px;
+    }
+    
+    hr {
+        display: none;
+    }
 }
 
 
@@ -152,6 +246,7 @@
         padding: 0;
         margin: 0;
     }
+
     
     .header-info .logo img {
         padding-top: 5px;
@@ -171,6 +266,8 @@
     header nav a {
         color:black;
     }
+
+    /* Home */
 
     .coffe-types .coffe-content h2{
         font-size: 20px;
@@ -232,6 +329,109 @@
         width: 100px;
         
     }
+
+    /* About us */
+
+    .our-story-content-4 img{
+        display: none;
+    }
+
+    .our-story-content-5 img{
+        display: none;
+    }
+
+    .our-story-content-2 {
+        padding: 10px 20px 20px 20px;
+        text-align: justify;
+    }
+
+    .our-story-content-2 h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .our-story-content-2 p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .our-story-content-3 {
+        padding: 20px 20px 10px 20px;
+        text-align:right;
+    }
+
+    .our-story-content-3 h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .our-story-content-3 p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+    
+    .our-story-content-6 {
+        padding: 25px 20px 25px 20px;
+    }
+
+    .our-story-content-6 h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .our-story-content-6 p {
+        line-height: 20px;
+        font-size: 16px;  
+        text-align: justify;
+    }
+
+    hr {
+        width: 75%;
+        background-color: black;
+    }
+
+
+
+    .our-story {
+        padding: 0;
+        margin: 0 auto;
+        height: 100;
+        flex-direction: column;
+    }
+
+    .our-story-content-1 {
+        width: 100%;
+    }
+
+    .our-story-2 {
+        padding: 0;
+        margin: 0 auto;
+        height: 100;
+        flex-direction: column;
+    }
+
+    
+    .our-story-content-5 {
+        width: 100%;
+    }
+
+    .our-story-title {
+        padding: 0px 20px 30px 20px;
+    }
+
+    .our-story-title h1 {
+        font-size: 30px;
+    }
+
+    .our-story-title p {
+        padding-top: 5px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+
+    
+
 
     /* Vlog */ 
 
@@ -309,8 +509,9 @@
 
 
     .info-content img {
-        width: 50px;
+        width: 20px;
     }
+
 
     .copyright {
         a {
@@ -342,11 +543,17 @@
 
     .socials {
         margin-bottom: 30px;
+        display: flex;
+        display: 100%;
+        overflow-y: hidden !important;
+        
     }
 
     .socials a img {
-        width: 25px;
-        padding: 0px 20px;
+        display: flex;
+        width: 100%;
+        padding: 0 7px;
+        overflow-y: hidden !important;
     }
 
     .recipes-title {

@@ -5,6 +5,10 @@
     }
 }
 
+header {
+    overflow-y: hidden;
+}
+
 header.header-info {
     display: flex !important;
     justify-content: space-between !important;

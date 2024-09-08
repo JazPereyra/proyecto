@@ -8,7 +8,6 @@ body {
     section {
         img.header-img {
                 width: 100%;
-                box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
             }
             
         }
@@ -32,6 +31,8 @@ body {
         }
 
         div.coffe-info-content {
+            overflow-y: hidden;
+            
 
             div.coffe-info-1 {
                 text-align: center;
@@ -114,6 +115,7 @@ body {
             margin: 20px auto;
             text-align: center;  
             width: 70%;
+            overflow-y: hidden !important;
 
             img {
                 border: none;
@@ -154,50 +156,25 @@ body {
     section {
 
         div.our-story-title {
+            animation: fade-up 1s;
             text-align: center;
 
             h1 {
-                font-size: 43px;
                 $color-letras: #2d2d2d;
-                padding: 0px 30px;
             }
         }
     }
 
     section.our-story {
-        padding-bottom: 40px;
 
         div.our-story-1 {
-            display: flex;
-            padding-top: 50px;
             align-items: center;
             margin: 0;
 
-            div.our-story-content-1 {
-                width: 60%;
-
-                img {
-                    width: 100%;
-                    
-                    
-                }
-
-            }
-
             div.our-story-content-2 {
-                width: 60%;
-                padding-left: 20px;
-                padding-right: 50px;
 
                 h2 {
-                    font-size: 28px;
-                    padding-bottom: 10px;
                     $color-letras: #2d2d2d;
-                }
-
-                p {
-                    line-height: 23px;
-                    font-size: 18px;
                 }
 
             }
@@ -205,23 +182,13 @@ body {
         }
 
         div.our-story-2 {
-            display: flex;
             align-items: center;
             margin: 0;
 
             div.our-story-content-3 {
-                width: 60%;
-                padding-left: 40px;
-                padding-right: 20px;
 
                 h2 {
-                    font-size: 28px;
-                    padding-bottom: 10px;
-                }
-
-                p {
-                    line-height: 23px;
-                    font-size: 18px;
+                    $color-letras: #2d2d2d;
                 }
 
             }
@@ -237,11 +204,9 @@ body {
         }
 
         div.our-story-3 {
-            display: flex;
             align-items: center;
 
             div.our-story-content-5 {
-                width: 60%;
 
                 img {
                     width: 100%;
@@ -250,18 +215,9 @@ body {
             }
 
             div.our-story-content-6 {
-                padding-left: 40px;
-                padding-right: 20px;
-                width: 55%;
 
                 h2 {
-                    font-size: 28px;
-                    padding-bottom: 20px;
-                }
-
-                p {
-                    line-height: 23px;
-                    font-size: 18px;
+                    $color-letras: #2d2d2d;
                 }
 
             }
@@ -312,6 +268,7 @@ body {
 
     section.wwu {
         padding: 10px 0px 40px 0px;
+        animation: fade-up 1s;
 
         div.wwu-txt {
             text-align: center;
